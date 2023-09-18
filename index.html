@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto - Besouro Azul</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+
+        <!-- === MENU === -->
+        <nav class="nav-bar">
+            <div class="dc-logo">
+                <img width="50" src="assets/img/dc-logo.svg" alt="Logo">
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="assets/pages/galeria.html" class="nav-link">Galeria</a></li>
+                    <li class="nav-item"><a href="assets/pages/poderes.html" class="nav-link">Poderes</a></li>
+                    <li class="nav-item"><a href="assets/pages/contato.html" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+
+            <!-- ==== MENU MOBILE BUTTON === -->
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img width="35" class="icon" src="assets/img/menu_mobile.svg"
+                        alt=""></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="assets/pages/galeria.html" class="nav-link">Galeria</a></li>
+                <li class="nav-item"><a href="assets/pages/poderes.html" class="nav-link">Poderes</a></li>
+                <li class="nav-item"><a href="assets/pages/contato.html" class="nav-link">Contato</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <!-- ==== COVER ==== -->
+    <div id="cover"></div>
+
+
+    <main class="container">
+        <div class="textos">
+            <h1 id="title-cover">Besouro Azul</h1>
+
+            <audio id="player" controls>
+                <source src="assets/sound/sound-theme.mp3" type="audio/mpeg">
+            </audio>
+
+            <div id="sinopse">
+                <h2>Sinopse:</h2>
+                <p class="description">
+                    Besouro Azul, baseado nos quadrinhos da DC, segue o jovem mexicano Jaime Reyes (Xolo Maridueña)
+                    que,
+                    recém-formado, volta para casa cheio de aspirações para o futuro. Em meio a uma busca por seu
+                    propósito
+                    no mundo - e um emprego - o destino o surpreende ao colocar em seu caminho uma antiga relíquia
+                    de
+                    biotecnologia alienígena, conhecida como Escaravelho. O besouro alienígena azul escolhe Jaime
+                    para
+                    ser
+                    seu hospedeiro simbiótico - o que lhe dá uma armadura superpoderosa e lhe garante poderes. O
+                    problema é
+                    que o item é de grande interesse da empresária Victoria Kord (Susan Sarandon), que une forças ao
+                    vilão
+                    Carapax (Raoul Max Trujillo) para recuperá-lo. Nessa confusão toda, Jaime só poderá contar com a
+                    ajuda
+                    da própria família e da jovem Jenny Kord (Bruna Marquezine). E agora, o jovem deverá enfrentar
+                    desafios
+                    imprevisíveis, tendo sua vida transformada para sempre, ao se tornar o Super-Herói Besouro Azul.
+                </p>
+            </div>
+            <button class="button">Comprar ingresso</button>
+        </div>
+
+        <div id="trailer-container">
+            <h1 id="title-trailer">Trailer</h1>
+            <video controls class="trailer">
+                <source src="assets/movie/trailer-movie.mp4" type="video/mp4">
+            </video>
+
+        </div>
+    </main>
+
+    <section>
+        <!-- CARDS -->
+        <div class="container-card-title">
+            <h1 id="title-card">Elenco</h1>
+        </div>
+        <div class="actor-cards-container">
+            <div class="cards-content">
+
+                <div class="card banner-1">Xolo Maridueña</div>
+                <div class="card banner-2">Bruna Marquezine</div>
+                <div class="card banner-3">George Lopez</div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <img width="50" class="dc-logo" src="assets/img/dc-logo.svg" />
+        <span>Todos os direitos reservados ©</span>
+        <span>Desenvolvido por: <a href="https://studypaulogustavo.github.io/portfolio-paulogf/" target="_blank">Paulo
+                Gustavo
+                Ferreira</a></span>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

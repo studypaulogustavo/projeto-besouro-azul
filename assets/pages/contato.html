@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto - Besouro Azul</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+    <header>
+
+        <!-- === MENU === -->
+        <nav class="nav-bar">
+            <div class="dc-logo">
+                <img width="50" src="../img/dc-logo.svg" alt="Logo">
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="/index.html" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="../pages/galeria.html" class="nav-link">Galeria</a></li>
+                    <li class="nav-item"><a href="../pages/poderes.html" class="nav-link">Poderes</a></li>
+                    <li class="nav-item"><a href="../pages/contato.html" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+
+            <!-- ==== MENU MOBILE BUTTON === -->
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img width="35" class="icon" src="../img/menu_mobile.svg" alt=""></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="/index.html" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="../pages/galeria.html" class="nav-link">Galeria</a></li>
+                <li class="nav-item"><a href="../pages/poderes.html" class="nav-link">Poderes</a></li>
+                <li class="nav-item"><a href="../pages/contato.html" class="nav-link">Contato</a></li>
+            </ul>
+        </div>
+
+    </header>
+    <div class="section">
+        <div class="container-contato">
+            <form action="contato.html">
+                <h1>Entre em contato conosco</h1>
+                <input style="display: block;" id="name" type="text" name="name" placeholder="Nome completo" />
+                <input style="display: block" id="email" type="email" name="E-mail" placeholder="Seu melhor email" />
+
+                <textarea style="display: block; resize: none;" name="mensagem" id="mensagem" rows="10"
+                    placeholder="Descrição"></textarea>
+
+                <button id="button-contato">Enviar</button>
+            </form>
+        </div>
+
+    </div>
+    <footer>
+        <img width="50" class="dc-logo" src="../img/dc-logo.svg" />
+        <span>Todos os direitos reservados ©</span>
+        <span>Desenvolvido por: <a href="https://www.linkedin.com/in/paulogustavoferreira/" target="_blank">Paulo
+                Gustavo
+                Ferreira</a></span>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
