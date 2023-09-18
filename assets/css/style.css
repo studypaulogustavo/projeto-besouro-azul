@@ -933,6 +933,7 @@ form textarea {
     cursor: pointer;
     outline: none;
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
     border-radius: 10px;
     border: 2px solid #6ee4fd;
     background: linear-gradient(to left, #c5f5ec, #f3fffd, #6ee4fd);
