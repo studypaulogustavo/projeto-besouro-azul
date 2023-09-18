@@ -264,7 +264,10 @@ header {
 
     #title-cover {
         font-size: 4rem !important;
-        width: 100% !important;
+        margin: auto !important;
+        position: relative;
+        display: flex;
+        justify-content: center;
     }
 
     #player {
